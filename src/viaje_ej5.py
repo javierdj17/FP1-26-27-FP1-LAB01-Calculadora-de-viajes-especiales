@@ -4,7 +4,9 @@ while pregunta==True:
     velocidad_kmh =int(input("Dime una velocidad en kilometros por hora: ")) 
     tiempo_horas = distancia_km / velocidad_kmh
     tiempo_dias = tiempo_horas / 24
-    print(f"Tardarías {tiempo_dias} días en llegar.")
+    semanas = tiempo_dias // 7
+    dias_restantes = tiempo_dias % 7
+    print(f"Tardarías {semanas} semanas y {dias_restantes} días en llegar.")
     a=input("Quieres hacer otra simulación?, responde con s/n: ")
     if a=="s":
         pregunta=True
