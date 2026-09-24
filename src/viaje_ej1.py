@@ -1,5 +1,5 @@
-distancia_km = 384400  # distancia Tierra - Luna
-velocidad_kmh = 5000000
+distancia_km = 38440000  # distancia Tierra - Luna
+velocidad_kmh = 50000
 tiempo_horas = distancia_km // velocidad_kmh
 tiempo_dias = tiempo_horas / 24
 tiempo_semanas = tiempo_dias // 7
